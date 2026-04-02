@@ -1,4 +1,5 @@
-return {
+return 
+{
   "neanias/everforest-nvim",
   version = false,
   lazy = false,

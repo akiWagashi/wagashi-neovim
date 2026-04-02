@@ -1,4 +1,5 @@
-return {
+return 
+{
   "vzze/cmdline.nvim",
   opts = {
     cmdtype = ":",

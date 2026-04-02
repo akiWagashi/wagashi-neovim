@@ -1,6 +1,7 @@
 ---@type LazySpec
 -- NOTE: Rainbow Delimiters
-return {
+return 
+{
   "HiPhish/rainbow-delimiters.nvim",
   event = "VeryLazy",
   config = function()
