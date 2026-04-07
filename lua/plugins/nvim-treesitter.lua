@@ -25,7 +25,10 @@ return
         'javascript',
         'typescript',
         'python',
-        'lua'
+        'lua',
+        'toml',
+        'yaml',
+        'xml'
     }
     
     for _, parser in ipairs(ensure_installed) do
