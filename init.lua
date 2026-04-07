@@ -19,9 +19,6 @@ vim.api.nvim_set_hl(0, 'LspInlayHint', { fg = '#6c6c6c', bg = 'NONE' })
 vim.opt.number = true
 vim.opt.cursorline = true
 
--- set leader
-vim.g.mapleader = " "
-
 -- enable lsp
 vim.lsp.enable('clangd')
 vim.lsp.enable('rust-analyzer')
