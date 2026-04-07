@@ -5,6 +5,8 @@ return
         event = 'VeryLazy',  -- LSP 附加时加载
         enabled = true,
         config = function()
+            vim.opt.signcolumn = 'yes'
+
             -- 关闭原生 virtual_text
             vim.diagnostic.config({
                 virtual_text = false,  -- 必须关闭
