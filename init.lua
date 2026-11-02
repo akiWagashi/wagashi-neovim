@@ -1,31 +1,11 @@
+-- import lazy.vim 
 require("config.lazy")
 
--- set lsp config
-vim.api.nvim_create_autocmd('LspAttach', {
-    callback = function(ev)
-        local bufnr = ev.buf
+-- import keymp config
+require("custom.keymap")
 
-        -- enable inlay_hint
-        vim.defer_fn(function()
-                    vim.lsp.inlay_hint.enable(true, { bufnr = bufnr })
-        end, 300)
-    end,
-})
+-- import lsp config
+require("custom.lsp")
 
--- set inlay hint color
-vim.api.nvim_set_hl(0, 'LspInlayHint', { fg = '#6c6c6c', bg = 'NONE' })
-
--- show line number
-vim.opt.number = true
-vim.opt.cursorline = true
-
--- set indent
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
-
--- enable lsp
-vim.lsp.enable('clangd')
-vim.lsp.enable('rust-analyzer')
-vim.lsp.enable('csharp-ls')
-vim.lsp.enable('ty')
+-- import flavor config
+require("custom.flavor")
