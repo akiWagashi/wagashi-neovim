@@ -18,4 +18,5 @@ return
             desc = "show the diagnostic of the current line",
         },
     },
+    enabled = false
 }
