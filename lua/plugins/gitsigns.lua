@@ -1,3 +1,4 @@
+-- Git diff signs, hunk actions, and line blame 
 return
 {
   "lewis6991/gitsigns.nvim",

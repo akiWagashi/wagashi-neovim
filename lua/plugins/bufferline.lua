@@ -1,3 +1,4 @@
+-- Buffer line (tab bar) for switching between open buffers
 return
 {
     'akinsho/bufferline.nvim',

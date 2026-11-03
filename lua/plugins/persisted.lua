@@ -1,3 +1,4 @@
+-- Session management with auto-save and restore
 return
 {
   "olimorris/persisted.nvim",

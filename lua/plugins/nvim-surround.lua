@@ -1,3 +1,4 @@
+-- Add/delete/change surrounding pairs like brackets, quotes, and tags
 return
 {
     "kylechui/nvim-surround",

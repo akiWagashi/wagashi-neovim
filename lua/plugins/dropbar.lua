@@ -1,3 +1,4 @@
+-- IDE-like breadcrumbs showing code context hierarchy
 return
 {
     'Bekaboo/dropbar.nvim',

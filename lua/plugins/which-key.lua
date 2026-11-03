@@ -1,3 +1,4 @@
+-- Keymap helper showing available keybindings after a prefix
 return
 {
   "folke/which-key.nvim",

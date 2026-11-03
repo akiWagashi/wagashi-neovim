@@ -1,3 +1,4 @@
+-- Enhances command-line mode with completion menu and keymaps
 return 
 {
   "vzze/cmdline.nvim",

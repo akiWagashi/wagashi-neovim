@@ -1,3 +1,4 @@
+-- Clean up and optimize diagnostic display
 return
 {
     "kurama622/clean-diagnostic",

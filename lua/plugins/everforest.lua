@@ -1,3 +1,4 @@
+-- Everforest colorscheme
 return 
 {
   "neanias/everforest-nvim",

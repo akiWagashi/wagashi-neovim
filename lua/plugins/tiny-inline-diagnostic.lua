@@ -1,3 +1,4 @@
+-- Inline diagnostic messages at the end of lines
 return
 {
     "rachartier/tiny-inline-diagnostic.nvim",

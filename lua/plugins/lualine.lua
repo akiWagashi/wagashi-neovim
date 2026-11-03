@@ -1,3 +1,4 @@
+-- Statusline plugin showing mode, file info, git status, etc.
 return
 {
     'nvim-lualine/lualine.nvim',

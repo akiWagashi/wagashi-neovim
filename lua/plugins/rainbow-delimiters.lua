@@ -1,5 +1,5 @@
+-- Rainbow Delimiters
 ---@type LazySpec
--- NOTE: Rainbow Delimiters
 return 
 {
   "HiPhish/rainbow-delimiters.nvim",

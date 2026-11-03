@@ -1,3 +1,4 @@
+-- Integration with Yazi terminal file manager
 ---@type LazySpec
 return
 {

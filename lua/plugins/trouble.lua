@@ -1,3 +1,4 @@
+-- Pretty list for diagnostics, references, symbols, etc.
 return
 {
   "folke/trouble.nvim",

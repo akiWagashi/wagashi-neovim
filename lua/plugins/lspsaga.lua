@@ -1,3 +1,4 @@
+-- Enhanced LSP UI: hover, code action, rename, etc.
 return
 {
     'nvimdev/lspsaga.nvim',

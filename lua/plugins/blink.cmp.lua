@@ -1,3 +1,4 @@
+-- Completion plugin with LSP, path, snippets, buffer sources and fuzzy matching
 return
 {
   'saghen/blink.cmp',
