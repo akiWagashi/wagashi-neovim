@@ -3,7 +3,10 @@ return
 {
     cmd = { 'csharp-ls' },
     root_dir = function(bufnr, on_dir)
-        on_dir(vim.fn.getcwd())
+        local root = vim.fs.root(bufnr, function(name)
+            return name:match('%.sln$') or name:match('%.csproj$') or name == '.git'
+        end)
+        on_dir(root)
     end,
     filetypes = { 'cs' },
     init_options = {

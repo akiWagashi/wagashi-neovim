@@ -1,4 +1,9 @@
-﻿-- set lsp config
+﻿-- shared defaults for every server
+vim.lsp.config('*', {
+    capabilities = require('blink.cmp').get_lsp_capabilities(),
+})
+
+-- set lsp config
 vim.api.nvim_create_autocmd('LspAttach', {
     callback = function(ev)
         local bufnr = ev.buf
