@@ -7,6 +7,14 @@ return
     -- your configuration comes here
     -- or leave it empty to use the default settings
     -- refer to the configuration section below
+    spec = {
+      { "<leader>w", group = "Window" },
+      { "<leader>f", group = "Find" },
+      { "<leader>s", group = "Search" },
+      { "<leader>g", group = "Git" },
+      { "<leader>x", group = "Diagnostics" },
+      { "<leader>l", group = "LSP" },
+    }
   },
   keys = {
     {
