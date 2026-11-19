@@ -12,7 +12,13 @@ return
         words = { enabled = true },
         terminal = {
             enabled = true,
-            shell = "pwsh --NoLogo"
+            shell = "pwsh --NoLogo",
+			win = {
+				style = "terminal",
+				wo = {
+					winhighlight = "Normal:Normal,NormalNC:NormalNC",
+				}
+			}
         },
         dashboard =
         {

@@ -14,6 +14,7 @@ return
       { "<leader>g", group = "Git" },
       { "<leader>x", group = "Diagnostics" },
       { "<leader>l", group = "LSP" },
+      { "<leader>q", group = "Session"  }
     }
   },
   keys = {
