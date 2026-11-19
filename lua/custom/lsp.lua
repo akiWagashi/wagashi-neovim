@@ -16,7 +16,13 @@ vim.api.nvim_create_autocmd('LspAttach', {
 })
 
 -- enable lsp
-vim.lsp.enable('clangd')
+
+if vim.fn.executable('clice') == 1 then
+    vim.lsp.enable('clice')
+else
+    vim.lsp.enable('clangd')
+end
+
 vim.lsp.enable('rust-analyzer')
 vim.lsp.enable('csharp-ls')
 vim.lsp.enable('ty')
